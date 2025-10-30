@@ -1,5 +1,5 @@
-import bagBlue from "@/assets/bag-blue.jpg";
-import bagGreen from "@/assets/bag-green.jpg";
+import bagAlice from "@/assets/bag-alice.jpg";
+import bagLolla from "@/assets/bag-lolla.jpg";
 
 const BagGallery = () => {
   return (
@@ -15,42 +15,42 @@ const BagGallery = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
-          {/* Bag Blue */}
+          {/* Bag Alice */}
           <div className="group animate-fade-up animation-delay-200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
-                src={bagBlue} 
-                alt="Bolsa de crochê azul com lenço elegante" 
+                src={bagAlice} 
+                alt="Bolsa Alice - Bolsa de crochê azul com lenço elegante" 
                 className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
             <div className="mt-6 text-center">
               <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
-                Elegância Azul
+                Bolsa Alice
               </h3>
               <p className="font-montserrat text-muted-foreground">
-                Sofisticação em cada ponto
+                Elegância em tons de azul
               </p>
             </div>
           </div>
 
-          {/* Bag Green */}
+          {/* Bag Lolla */}
           <div className="group animate-fade-up animation-delay-400">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
-                src={bagGreen} 
-                alt="Bolsa de crochê verde e bege moderna" 
+                src={bagLolla} 
+                alt="Bolsa Lolla - Bolsa de crochê artesanal em tons naturais" 
                 className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
             <div className="mt-6 text-center">
               <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
-                Tons Naturais
+                Bolsa Lolla
               </h3>
               <p className="font-montserrat text-muted-foreground">
-                Harmonia e delicadeza
+                Sofisticação artesanal
               </p>
             </div>
           </div>
