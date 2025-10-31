@@ -57,10 +57,13 @@ const FinalCTA = () => {
             Ou garanta agora com o botão abaixo
           </p>
           <Button 
+            asChild
             size="lg"
             className="font-montserrat font-semibold text-lg px-12 py-7 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft hover:shadow-hover transition-all duration-300 hover:scale-105"
           >
-            Eu quero isso! 🧶
+            <a href="https://pay.kiwify.com.br/iBXyKqe" target="_blank" rel="noopener noreferrer">
+              Eu quero isso! 🧶
+            </a>
           </Button>
         </div>
 
