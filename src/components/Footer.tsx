@@ -6,7 +6,7 @@ const Footer = () => {
             Jancrochet
           </h3>
           <p className="font-montserrat text-sm text-muted-foreground mb-6">
-            Transformando fios em arte desde 2024
+            Transformando fios em arte desde 2020
           </p>
           
           <div className="flex justify-center gap-6 mb-8">
