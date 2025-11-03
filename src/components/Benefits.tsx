@@ -12,10 +12,6 @@ const benefits = [
   {
     title: "Aprenda no seu ritmo",
     description: "Estude quando e onde quiser, sem pressa"
-  },
-  {
-    title: "Do iniciante ao avançado",
-    description: "Ideal para quem quer começar ou aperfeiçoar suas técnicas"
   }
 ];
 
@@ -32,7 +28,7 @@ const Benefits = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => (
             <div 
               key={index}
