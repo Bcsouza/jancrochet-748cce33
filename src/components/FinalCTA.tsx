@@ -69,7 +69,7 @@ const FinalCTA = () => {
 
         <div className="mt-12 pt-8 border-t border-border/50 animate-fade-in animation-delay-600">
           <p className="font-montserrat text-sm text-muted-foreground">
-            ✨ Mais de <span className="font-semibold text-foreground">500 pessoas</span> já garantiram sua vaga
+            ✨ Mais de <span className="font-semibold text-foreground">100 pessoas</span> já garantiram sua vaga
           </p>
         </div>
       </div>
