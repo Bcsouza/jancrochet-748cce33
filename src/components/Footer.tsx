@@ -16,9 +16,6 @@ const Footer = () => {
             <a href="#" className="font-montserrat text-sm text-muted-foreground hover:text-primary transition-colors">
               WhatsApp
             </a>
-            <a href="#" className="font-montserrat text-sm text-muted-foreground hover:text-primary transition-colors">
-              Contato
-            </a>
           </div>
 
           <p className="font-montserrat text-xs text-muted-foreground">© 2025Jancrochet. Todos os direitos reservados.</p>
