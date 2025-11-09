@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="mb-8">
           
           <h1 className="font-playfair text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Jancrochet
+            JanCrochet
             <span className="block text-primary mt-2">Bolsas Exclusivas</span>
           </h1>
         </div>
