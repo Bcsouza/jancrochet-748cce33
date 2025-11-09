@@ -3,7 +3,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center">
           <h3 className="font-playfair text-2xl font-bold text-foreground mb-2">
-            Jancrochet
+            JanCrochet
           </h3>
           <p className="font-montserrat text-sm text-muted-foreground mb-6">
             Transformando fios em arte desde 2020
@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <p className="font-montserrat text-xs text-muted-foreground">© 2025Jancrochet. Todos os direitos reservados.</p>
+          <p className="font-montserrat text-xs text-muted-foreground">© 2025 JanCrochet. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>;

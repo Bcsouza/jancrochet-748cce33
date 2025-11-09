@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         <p className="font-montserrat text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in animation-delay-200">
-          Aprenda a criar bolsas de crochê únicas e exclusivas com o curso Jancrochet. 
+          Aprenda a criar bolsas de crochê únicas e exclusivas com o curso JanCrochet.
           <span className="block mt-2 font-medium text-foreground">
             Transforme fios em arte e conquiste sua renda com elegância.
           </span>
