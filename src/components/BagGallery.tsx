@@ -78,7 +78,7 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://pay.kiwify.com.br/4D9x4SZ', '_blank')}
               >
                 Comprar por R$ 90
               </Button>
@@ -105,7 +105,7 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://pay.kiwify.com.br/NRmkgUg', '_blank')}
               >
                 Comprar por R$ 90
               </Button>
@@ -132,7 +132,7 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://pay.kiwify.com.br/kDMQZZU', '_blank')}
               >
                 Comprar por R$ 90
               </Button>
@@ -159,7 +159,7 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://pay.kiwify.com.br/8AjEyhY', '_blank')}
               >
                 Comprar por R$ 90
               </Button>
