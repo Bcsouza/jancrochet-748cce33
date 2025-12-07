@@ -41,11 +41,13 @@ const BagGallery = () => {
               Economia de R$ 70 comprando o curso completo!
             </p>
             <Button 
+              asChild
               size="lg" 
               className="font-montserrat text-lg px-10 py-6 rounded-full shadow-hover hover:scale-105 transition-transform"
-              onClick={() => window.open('#', '_blank')}
             >
-              Quero o Curso Completo
+              <a href="https://pay.kiwify.com.br/iBXyKqe" target="_blank" rel="noopener noreferrer">
+                Quero o Curso Completo
+              </a>
             </Button>
           </div>
         </div>
