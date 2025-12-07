@@ -31,11 +31,6 @@ const Hero = () => {
           </span>
         </p>
 
-        <Button asChild size="lg" className="font-montserrat font-semibold text-lg px-10 py-7 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft hover:shadow-hover transition-all duration-300 hover:scale-105 animate-scale-in animation-delay-400">
-          <a href="https://pay.kiwify.com.br/iBXyKqe" target="_blank" rel="noopener noreferrer">
-            Eu quero isso! 🧶
-          </a>
-        </Button>
       </div>
 
       {/* Decorative bottom wave */}
