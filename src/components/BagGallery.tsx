@@ -107,7 +107,7 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => window.open('https://pay.kiwify.com.br/NRmkgUg', '_blank')}
+                onClick={() => window.open('https://pay.kiwify.com.br/OxeX1DO', '_blank')}
               >
                 Comprar por R$ 90
               </Button>
