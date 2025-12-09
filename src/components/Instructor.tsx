@@ -1,13 +1,9 @@
 import janiceSouza from "@/assets/janice-souza.png";
-
 const Instructor = () => {
-  return (
-    <section className="py-20 px-6 bg-background">
+  return <section className="py-20 px-6 bg-background">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12 animate-fade-up">
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Sua Professora e Especialista em Crochê Moderno
-          </h2>
+          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground mb-4">Sou Professora de crochê Moderno</h2>
         </div>
 
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
@@ -15,11 +11,7 @@ const Instructor = () => {
           <div className="flex-shrink-0 animate-scale-in">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full blur-2xl" />
-              <img
-                src={janiceSouza}
-                alt="Janice Souza - Especialista em Crochê Moderno"
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-elegant border-4 border-background"
-              />
+              <img src={janiceSouza} alt="Janice Souza - Especialista em Crochê Moderno" className="relative w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-elegant border-4 border-background" />
             </div>
           </div>
 
@@ -42,8 +34,6 @@ const Instructor = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Instructor;
