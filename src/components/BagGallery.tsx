@@ -32,14 +32,14 @@ const BagGallery = () => {
             </p>
             <div className="flex items-center justify-center gap-4 mb-6">
               <span className="font-montserrat text-2xl text-muted-foreground line-through">
-                R$ 360
+                R$ 450
               </span>
               <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
-                R$ 290
+                R$ 387
               </span>
             </div>
             <p className="font-montserrat text-sm text-muted-foreground mb-6">
-              Economia de R$ 70 comprando o curso completo!
+              Economia de R$ 63 comprando o curso completo!
             </p>
             <Button 
               asChild
