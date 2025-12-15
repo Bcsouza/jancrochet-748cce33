@@ -2,7 +2,6 @@ import bagAlice from "@/assets/bag-alice.jpg";
 import bagLolla from "@/assets/bag-lolla.jpg";
 import bagTiffany from "@/assets/bag-tiffany.jpg";
 import bagPenelope from "@/assets/bag-penelope.jpg";
-import bagColmeia from "@/assets/bag-colmeia.jpeg";
 import { Button } from "@/components/ui/button";
 
 const BagGallery = () => {
@@ -60,7 +59,7 @@ const BagGallery = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-10">
           {/* Bag Alice */}
           <div className="group animate-fade-up animation-delay-200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
@@ -169,32 +168,6 @@ const BagGallery = () => {
             </div>
           </div>
 
-          {/* Bolsa Colmeia */}
-          <div className="group animate-fade-up animation-delay-1000">
-            <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
-              <img 
-                src={bagColmeia} 
-                alt="Bolsa Colmeia - Bolsa de crochê dourada com padrão colmeia vazado" 
-                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            </div>
-            <div className="mt-6 text-center">
-              <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
-                Bolsa Colmeia
-              </h3>
-              <p className="font-montserrat text-muted-foreground mb-4">
-                Textura única e moderna
-              </p>
-              <Button 
-                variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
-                onClick={() => window.open('#', '_blank')}
-              >
-                Comprar por R$ 90
-              </Button>
-            </div>
-          </div>
         </div>
       </div>
     </section>
