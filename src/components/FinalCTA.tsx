@@ -1,6 +1,18 @@
 import { Button } from "@/components/ui/button";
 
+declare global {
+  interface Window {
+    fbq: (track: string, event: string, data?: { value: number; currency: string }) => void;
+  }
+}
+
 const FinalCTA = () => {
+  const handlePurchaseClick = () => {
+    if (window.fbq) {
+      window.fbq('track', 'Purchase', { value: 387, currency: 'BRL' });
+    }
+    window.open('https://pay.kiwify.com.br/iBXyKqe', '_blank');
+  };
 
   return (
     <section id="cta-section" className="py-20 px-6 bg-gradient-elegant relative overflow-hidden">
@@ -20,13 +32,11 @@ const FinalCTA = () => {
 
         <div className="animate-scale-in animation-delay-200">
           <Button 
-            asChild
             size="lg"
             className="font-montserrat font-semibold text-lg px-12 py-7 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft hover:shadow-hover transition-all duration-300 hover:scale-105"
+            onClick={handlePurchaseClick}
           >
-            <a href="https://pay.kiwify.com.br/iBXyKqe" target="_blank" rel="noopener noreferrer">
-              Eu quero isso! 🧶
-            </a>
+            Eu quero isso! 🧶
           </Button>
         </div>
 
