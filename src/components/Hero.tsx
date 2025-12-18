@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
+import { Instagram } from "lucide-react";
 import heroImage from "@/assets/hero-background.jpg";
+
 const Hero = () => {
   const scrollToCTA = () => {
     const ctaSection = document.getElementById('cta-section');
@@ -8,6 +10,21 @@ const Hero = () => {
     });
   };
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Header */}
+      <header className="absolute top-0 left-0 right-0 z-20 py-4 px-6">
+        <div className="max-w-6xl mx-auto flex justify-end">
+          <a 
+            href="https://www.instagram.com/jancrochet_/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-background/80 backdrop-blur-sm hover:bg-primary hover:text-primary-foreground transition-all duration-300 shadow-soft"
+          >
+            <Instagram size={20} />
+            <span className="font-montserrat text-sm font-medium">@jancrochet_</span>
+          </a>
+        </div>
+      </header>
+
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Crochê artesanal" className="w-full h-full object-cover opacity-20" />
