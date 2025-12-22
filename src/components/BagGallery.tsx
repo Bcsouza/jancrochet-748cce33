@@ -31,43 +31,10 @@ const BagGallery = () => {
           </p>
         </div>
 
-        {/* Full Course Offer */}
-        <div className="mb-16 animate-fade-up">
-          <div className="bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-3xl p-8 md:p-12 text-center border border-primary/20 shadow-soft">
-            <div className="inline-block bg-primary/20 text-primary px-4 py-1 rounded-full text-sm font-montserrat font-semibold mb-4">
-              ✨ Oferta Especial
-            </div>
-            <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Curso Completo - Todas as 5 Bolsas
-            </h3>
-            <p className="font-montserrat text-muted-foreground mb-6 max-w-xl mx-auto">
-              Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
-            </p>
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <span className="font-montserrat text-2xl text-muted-foreground line-through">
-                R$ 450
-              </span>
-              <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
-                R$ 387
-              </span>
-            </div>
-            <p className="font-montserrat text-sm text-muted-foreground mb-6">
-              Economia de R$ 63 comprando o curso completo!
-            </p>
-            <Button 
-              size="lg" 
-              className="font-montserrat text-lg px-10 py-6 rounded-full shadow-hover hover:scale-105 transition-transform"
-              onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/iBXyKqe', 387)}
-            >
-              Quero o Curso Completo
-            </Button>
-          </div>
-        </div>
-
         {/* Individual Bags */}
         <div className="text-center mb-8">
           <p className="font-montserrat text-muted-foreground">
-            Ou compre as bolsas individualmente:
+            Compre as bolsas individualmente:
           </p>
         </div>
 
@@ -207,6 +174,39 @@ const BagGallery = () => {
             </div>
           </div>
 
+        </div>
+
+        {/* Full Course Offer */}
+        <div className="mt-16 animate-fade-up">
+          <div className="bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-3xl p-8 md:p-12 text-center border border-primary/20 shadow-soft">
+            <div className="inline-block bg-primary/20 text-primary px-4 py-1 rounded-full text-sm font-montserrat font-semibold mb-4">
+              ✨ Oferta Especial
+            </div>
+            <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground mb-4">
+              Curso Completo - Todas as 5 Bolsas
+            </h3>
+            <p className="font-montserrat text-muted-foreground mb-6 max-w-xl mx-auto">
+              Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
+            </p>
+            <div className="flex items-center justify-center gap-4 mb-6">
+              <span className="font-montserrat text-2xl text-muted-foreground line-through">
+                R$ 450
+              </span>
+              <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
+                R$ 387
+              </span>
+            </div>
+            <p className="font-montserrat text-sm text-muted-foreground mb-6">
+              Economia de R$ 63 comprando o curso completo!
+            </p>
+            <Button 
+              size="lg" 
+              className="font-montserrat text-lg px-10 py-6 rounded-full shadow-hover hover:scale-105 transition-transform"
+              onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/iBXyKqe', 387)}
+            >
+              Quero o Curso Completo
+            </Button>
+          </div>
         </div>
       </div>
     </section>
