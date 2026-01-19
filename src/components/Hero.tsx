@@ -32,16 +32,16 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-6 py-20 text-center animate-fade-up">
-        <div className="mb-8">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 py-16 md:py-20 text-center animate-fade-up">
+        <div className="mb-6 md:mb-8">
           
-          <h1 className="font-playfair text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 md:mb-6 leading-tight">
             JanCrochet
             <span className="block text-primary mt-2">Bolsas Exclusivas</span>
           </h1>
         </div>
 
-        <p className="font-montserrat text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed animate-fade-in animation-delay-200">
+        <p className="font-montserrat text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-12 leading-relaxed animate-fade-in animation-delay-200 px-2">
           Aprenda a criar bolsas de crochê únicas e exclusivas com o curso JanCrochet.
           <span className="block mt-2 font-medium text-foreground">
             Transforme fios em arte e conquiste sua renda com elegância.

@@ -21,13 +21,13 @@ const BagGallery = () => {
   };
 
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-background to-secondary/30">
+    <section className="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-background to-secondary/30">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-up">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-4">
+        <div className="text-center mb-10 md:mb-16 animate-fade-up">
+          <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Criações Exclusivas
           </h2>
-          <p className="font-montserrat text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="font-montserrat text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
             Bolsas artesanais que serão ensinadas no curso que unem técnica, elegância e sofisticação
           </p>
         </div>
@@ -39,7 +39,7 @@ const BagGallery = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
           {/* Bag Alice */}
           <div className="group animate-fade-up animation-delay-200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
@@ -59,7 +59,7 @@ const BagGallery = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/4D9x4SZ', 90)}
               >
                 Comprar por R$ 90
@@ -86,7 +86,7 @@ const BagGallery = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/NRmkgUg', 90)}
               >
                 Comprar por R$ 90
@@ -113,7 +113,7 @@ const BagGallery = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/kDMQZZU', 90)}
               >
                 Comprar por R$ 90
@@ -140,7 +140,7 @@ const BagGallery = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/8AjEyhY', 90)}
               >
                 Comprar por R$ 90
@@ -167,7 +167,7 @@ const BagGallery = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 90)}
               >
                 Comprar por R$ 90
@@ -194,7 +194,7 @@ const BagGallery = () => {
               </p>
               <Button 
                 variant="outline" 
-                className="font-montserrat rounded-full hover:bg-primary hover:text-primary-foreground transition-all"
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 90)}
               >
                 Comprar por R$ 90
@@ -205,31 +205,31 @@ const BagGallery = () => {
         </div>
 
         {/* Full Course Offer */}
-        <div className="mt-16 animate-fade-up">
-          <div className="bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-3xl p-8 md:p-12 text-center border border-primary/20 shadow-soft">
-            <div className="inline-block bg-primary/20 text-primary px-4 py-1 rounded-full text-sm font-montserrat font-semibold mb-4">
+        <div className="mt-12 md:mt-16 animate-fade-up">
+          <div className="bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-12 text-center border border-primary/20 shadow-soft">
+            <div className="inline-block bg-primary/20 text-primary px-3 md:px-4 py-1 rounded-full text-xs md:text-sm font-montserrat font-semibold mb-4">
               ✨ Oferta Especial
             </div>
-            <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground mb-4">
+            <h3 className="font-playfair text-xl md:text-2xl lg:text-3xl font-bold text-foreground mb-4">
               Curso Completo - Todas as 6 Bolsas
             </h3>
-            <p className="font-montserrat text-muted-foreground mb-6 max-w-xl mx-auto">
+            <p className="font-montserrat text-sm md:text-base text-muted-foreground mb-6 max-w-xl mx-auto px-2">
               Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
             </p>
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <span className="font-montserrat text-2xl text-muted-foreground line-through">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6">
+              <span className="font-montserrat text-xl md:text-2xl text-muted-foreground line-through">
                 R$ 540
               </span>
-              <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
+              <span className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
                 R$ 447
               </span>
             </div>
-            <p className="font-montserrat text-sm text-muted-foreground mb-6">
+            <p className="font-montserrat text-xs md:text-sm text-muted-foreground mb-6">
               Economia de R$ 93 comprando o curso completo!
             </p>
             <Button 
               size="lg" 
-              className="font-montserrat text-lg px-10 py-6 rounded-full shadow-hover hover:scale-105 transition-transform"
+              className="font-montserrat text-base md:text-lg px-6 md:px-10 py-5 md:py-6 rounded-full shadow-hover hover:scale-105 transition-transform w-full sm:w-auto"
               onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/iBXyKqe', 447)}
             >
               Quero o Curso Completo
