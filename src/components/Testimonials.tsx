@@ -31,42 +31,42 @@ const testimonials = [{
   rating: 5
 }];
 const Testimonials = () => {
-  return <section className="py-16 md:py-24 bg-secondary/30">
+  return <section className="py-12 md:py-16 lg:py-24 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-primary mb-4">
+        <div className="text-center mb-8 md:mb-12">
+          <h2 className="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-4">
             O que nossas alunas estão dizendo
           </h2>
-          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto px-2">
             Histórias reais de mulheres que transformaram suas vidas com o crochê
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {testimonials.map((testimonial, index) => <div key={index} className="bg-card p-6 rounded-2xl shadow-soft border border-border/50 hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
-              <div className="flex gap-1 mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-6xl mx-auto">
+          {testimonials.map((testimonial, index) => <div key={index} className="bg-card p-5 md:p-6 rounded-2xl shadow-soft border border-border/50 hover:shadow-elegant transition-all duration-300 hover:-translate-y-1">
+              <div className="flex gap-1 mb-3 md:mb-4">
                 {Array.from({
               length: testimonial.rating
-            }).map((_, i) => <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />)}
+            }).map((_, i) => <Star key={i} className="w-4 h-4 md:w-5 md:h-5 fill-yellow-400 text-yellow-400" />)}
               </div>
               
-              <p className="text-foreground/90 mb-4 leading-relaxed italic">
+              <p className="text-foreground/90 mb-4 leading-relaxed italic text-sm md:text-base">
                 "{testimonial.text}"
               </p>
               
-              <div className="border-t border-border/50 pt-4">
-                <p className="font-semibold text-foreground">
+              <div className="border-t border-border/50 pt-3 md:pt-4">
+                <p className="font-semibold text-foreground text-sm md:text-base">
                   {testimonial.name}
                 </p>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-xs md:text-sm text-muted-foreground">
                   {testimonial.location}
                 </p>
               </div>
             </div>)}
         </div>
 
-        <div className="text-center mt-10">
-          <p className="text-muted-foreground">
+        <div className="text-center mt-8 md:mt-10">
+          <p className="text-muted-foreground text-sm md:text-base">
             ⭐ Mais de <span className="font-bold text-primary">100 alunas</span> satisfeitas
           </p>
         </div>

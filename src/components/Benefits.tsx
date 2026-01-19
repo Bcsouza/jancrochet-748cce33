@@ -17,33 +17,33 @@ const benefits = [
 
 const Benefits = () => {
   return (
-    <section className="py-20 px-6 bg-background">
+    <section className="py-12 md:py-20 px-4 md:px-6 bg-background">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-16 animate-fade-up">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-foreground mb-4">
+        <div className="text-center mb-10 md:mb-16 animate-fade-up">
+          <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             O que você vai conquistar
           </h2>
-          <p className="font-montserrat text-lg text-muted-foreground">
+          <p className="font-montserrat text-base md:text-lg text-muted-foreground px-2">
             Transforme sua paixão em uma fonte de renda criativa
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8">
           {benefits.map((benefit, index) => (
             <div 
               key={index}
-              className="group p-8 rounded-2xl bg-card border border-border hover:border-primary/40 shadow-soft hover:shadow-hover transition-all duration-300 animate-fade-up"
+              className="group p-6 md:p-8 rounded-2xl bg-card border border-border hover:border-primary/40 shadow-soft hover:shadow-hover transition-all duration-300 animate-fade-up"
               style={{ animationDelay: `${index * 150}ms` }}
             >
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-3 md:gap-4">
                 <div className="flex-shrink-0 mt-1">
-                  <CheckCircle2 className="w-6 h-6 text-primary" />
+                  <CheckCircle2 className="w-5 h-5 md:w-6 md:h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-playfair text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
+                  <h3 className="font-playfair text-lg md:text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                     {benefit.title}
                   </h3>
-                  <p className="font-montserrat text-muted-foreground leading-relaxed">
+                  <p className="font-montserrat text-sm md:text-base text-muted-foreground leading-relaxed">
                     {benefit.description}
                   </p>
                 </div>
