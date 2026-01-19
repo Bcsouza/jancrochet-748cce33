@@ -211,26 +211,26 @@ const BagGallery = () => {
               ✨ Oferta Especial
             </div>
             <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Curso Completo - Todas as 5 Bolsas
+              Curso Completo - Todas as 6 Bolsas
             </h3>
             <p className="font-montserrat text-muted-foreground mb-6 max-w-xl mx-auto">
               Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
             </p>
             <div className="flex items-center justify-center gap-4 mb-6">
               <span className="font-montserrat text-2xl text-muted-foreground line-through">
-                R$ 450
+                R$ 540
               </span>
               <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
-                R$ 387
+                R$ 447
               </span>
             </div>
             <p className="font-montserrat text-sm text-muted-foreground mb-6">
-              Economia de R$ 63 comprando o curso completo!
+              Economia de R$ 93 comprando o curso completo!
             </p>
             <Button 
               size="lg" 
               className="font-montserrat text-lg px-10 py-6 rounded-full shadow-hover hover:scale-105 transition-transform"
-              onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/iBXyKqe', 387)}
+              onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/iBXyKqe', 447)}
             >
               Quero o Curso Completo
             </Button>
