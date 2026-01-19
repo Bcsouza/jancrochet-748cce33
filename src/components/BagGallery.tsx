@@ -67,8 +67,35 @@ const BagGallery = () => {
             </div>
           </div>
 
-          {/* Bag Alice */}
+          {/* Bolsa Colmeia */}
           <div className="group animate-fade-up animation-delay-400">
+            <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
+              <img 
+                src={bagColmeia} 
+                alt="Bolsa Colmeia - Bolsa de crochê com trançado delicado" 
+                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            </div>
+            <div className="mt-6 text-center">
+              <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
+                Bolsa Colmeia
+              </h3>
+              <p className="font-montserrat text-muted-foreground mb-4">
+                Textura única e diferenciada
+              </p>
+              <Button 
+                variant="outline" 
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 90)}
+              >
+                Comprar por R$ 90
+              </Button>
+            </div>
+          </div>
+
+          {/* Bag Alice */}
+          <div className="group animate-fade-up animation-delay-600">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagAlice} 
@@ -95,7 +122,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bag Lolla */}
-          <div className="group animate-fade-up animation-delay-600">
+          <div className="group animate-fade-up animation-delay-800">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagLolla} 
@@ -122,7 +149,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bag Tiffany */}
-          <div className="group animate-fade-up animation-delay-800">
+          <div className="group animate-fade-up animation-delay-1000">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagTiffany} 
@@ -149,7 +176,7 @@ const BagGallery = () => {
           </div>
 
           {/* Clutch Penelope */}
-          <div className="group animate-fade-up animation-delay-1000">
+          <div className="group animate-fade-up animation-delay-1200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagPenelope} 
@@ -169,33 +196,6 @@ const BagGallery = () => {
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/tAmfn3J', 90)}
-              >
-                Comprar por R$ 90
-              </Button>
-            </div>
-          </div>
-
-          {/* Bolsa Colmeia */}
-          <div className="group animate-fade-up animation-delay-1200">
-            <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
-              <img 
-                src={bagColmeia} 
-                alt="Bolsa Colmeia - Bolsa de crochê com trançado delicado" 
-                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            </div>
-            <div className="mt-6 text-center">
-              <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
-                Bolsa Colmeia
-              </h3>
-              <p className="font-montserrat text-muted-foreground mb-4">
-                Textura única e diferenciada
-              </p>
-              <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 90)}
               >
                 Comprar por R$ 90
               </Button>
