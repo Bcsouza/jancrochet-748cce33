@@ -5,6 +5,7 @@ import bagPenelope from "@/assets/bag-penelope.jpg";
 import bagColmeia from "@/assets/bag-colmeia.jpeg";
 import bagBeatriz from "@/assets/bag-beatriz.jpeg";
 import bagAurora from "@/assets/bag-aurora.jpeg";
+import bagCharlotte from "@/assets/bag-charlotte.png";
 import { Button } from "@/components/ui/button";
 
 declare global {
@@ -41,6 +42,33 @@ const BagGallery = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
+          {/* Bolsa Charlotte */}
+          <div className="group animate-fade-up">
+            <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
+              <img 
+                src={bagCharlotte} 
+                alt="Bolsa Charlotte - Bolsa de crochê verde oliva com corrente dourada" 
+                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            </div>
+            <div className="mt-6 text-center">
+              <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
+                Bolsa Charlotte
+              </h3>
+              <p className="font-montserrat text-muted-foreground mb-4">
+                Estilo clássico e atemporal
+              </p>
+              <Button 
+                variant="outline" 
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/r1ELM3S', 90)}
+              >
+                Comprar por R$ 90
+              </Button>
+            </div>
+          </div>
+
           {/* Bolsa Aurora */}
           <div className="group animate-fade-up animation-delay-200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
@@ -239,7 +267,7 @@ const BagGallery = () => {
               ✨ Oferta Especial
             </div>
             <h3 className="font-playfair text-xl md:text-2xl lg:text-3xl font-bold text-foreground mb-4">
-              Curso Completo - Todas as 7 Bolsas
+              Curso Completo - Todas as 8 Bolsas
             </h3>
             <p className="font-montserrat text-sm md:text-base text-muted-foreground mb-6 max-w-xl mx-auto px-2">
               Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
