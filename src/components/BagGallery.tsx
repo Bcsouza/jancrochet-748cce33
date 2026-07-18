@@ -43,8 +43,35 @@ const BagGallery = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
-          {/* Bolsa Charlotte */}
+          {/* Clutch Aurora */}
           <div className="group animate-fade-up">
+            <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
+              <img 
+                src={bagClutchAurora.url} 
+                alt="Clutch Aurora - Bolsa de crochê em tons neutros com trançado floral" 
+                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            </div>
+            <div className="mt-6 text-center">
+              <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
+                Clutch Aurora
+              </h3>
+              <p className="font-montserrat text-muted-foreground mb-4">
+                Elegância artesanal em tons neutros
+              </p>
+              <Button 
+                variant="outline" 
+                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/HoH8dXN', 90)}
+              >
+                Comprar por R$ 90
+              </Button>
+            </div>
+          </div>
+
+          {/* Bolsa Charlotte */}
+          <div className="group animate-fade-up animation-delay-200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagCharlotte} 
@@ -71,7 +98,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bolsa Aurora */}
-          <div className="group animate-fade-up animation-delay-200">
+          <div className="group animate-fade-up animation-delay-400">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagAurora} 
@@ -98,7 +125,7 @@ const BagGallery = () => {
           </div>
 
           {/* Clutch Beatriz */}
-          <div className="group animate-fade-up animation-delay-400">
+          <div className="group animate-fade-up animation-delay-600">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagBeatriz} 
@@ -125,7 +152,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bolsa Colmeia */}
-          <div className="group animate-fade-up animation-delay-400">
+          <div className="group animate-fade-up animation-delay-800">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagColmeia} 
@@ -152,7 +179,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bag Alice */}
-          <div className="group animate-fade-up animation-delay-600">
+          <div className="group animate-fade-up animation-delay-1000">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagAlice} 
@@ -179,7 +206,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bag Lolla */}
-          <div className="group animate-fade-up animation-delay-800">
+          <div className="group animate-fade-up animation-delay-1200">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagLolla} 
@@ -206,7 +233,7 @@ const BagGallery = () => {
           </div>
 
           {/* Bag Tiffany */}
-          <div className="group animate-fade-up animation-delay-1000">
+          <div className="group animate-fade-up animation-delay-1400">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagTiffany} 
@@ -233,7 +260,7 @@ const BagGallery = () => {
           </div>
 
           {/* Clutch Penelope */}
-          <div className="group animate-fade-up animation-delay-1200">
+          <div className="group animate-fade-up animation-delay-1600">
             <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
               <img 
                 src={bagPenelope} 
@@ -253,33 +280,6 @@ const BagGallery = () => {
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/8AjEyhY', 90)}
-              >
-                Comprar por R$ 90
-              </Button>
-            </div>
-          </div>
-
-          {/* Clutch Aurora */}
-          <div className="group animate-fade-up animation-delay-1400">
-            <div className="relative overflow-hidden rounded-3xl shadow-soft hover:shadow-hover transition-all duration-500 bg-card">
-              <img 
-                src={bagClutchAurora.url} 
-                alt="Clutch Aurora - Bolsa de crochê em tons neutros com trançado floral" 
-                className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105" 
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-foreground/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            </div>
-            <div className="mt-6 text-center">
-              <h3 className="font-playfair text-2xl font-semibold text-foreground mb-2">
-                Clutch Aurora
-              </h3>
-              <p className="font-montserrat text-muted-foreground mb-4">
-                Elegância artesanal em tons neutros
-              </p>
-              <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/HoH8dXN', 90)}
               >
                 Comprar por R$ 90
               </Button>
