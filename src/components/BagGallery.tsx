@@ -6,6 +6,7 @@ import bagColmeia from "@/assets/bag-colmeia.jpeg";
 import bagBeatriz from "@/assets/bag-beatriz.jpeg";
 import bagAurora from "@/assets/bag-aurora.jpeg";
 import bagCharlotte from "@/assets/bag-charlotte.png";
+import bagClutchAurora from "@/assets/bag-clutch-aurora.jpg.asset.json";
 import { Button } from "@/components/ui/button";
 
 declare global {
