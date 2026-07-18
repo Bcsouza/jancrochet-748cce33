@@ -295,21 +295,21 @@ const BagGallery = () => {
               ✨ Oferta Especial
             </div>
             <h3 className="font-playfair text-xl md:text-2xl lg:text-3xl font-bold text-foreground mb-4">
-              Curso Completo - Todas as 8 Bolsas
+              Curso Completo - Todas as 9 Bolsas
             </h3>
             <p className="font-montserrat text-sm md:text-base text-muted-foreground mb-6 max-w-xl mx-auto px-2">
               Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6">
               <span className="font-montserrat text-xl md:text-2xl text-muted-foreground line-through">
-                R$ 630
+                R$ 810
               </span>
               <span className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
                 R$ 497
               </span>
             </div>
             <p className="font-montserrat text-xs md:text-sm text-muted-foreground mb-6">
-              Economia de R$ 133 comprando o curso completo!
+              Economia de R$ 313 comprando o curso completo!
             </p>
             <Button 
               size="lg" 
