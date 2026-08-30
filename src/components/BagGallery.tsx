@@ -288,39 +288,8 @@ const BagGallery = () => {
 
         </div>
 
-        {/* Full Course Offer */}
-        <div className="mt-12 md:mt-16 animate-fade-up">
-          <div className="bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-12 text-center border border-primary/20 shadow-soft">
-            <div className="inline-block bg-primary/20 text-primary px-3 md:px-4 py-1 rounded-full text-xs md:text-sm font-montserrat font-semibold mb-4">
-              ✨ Oferta Especial
-            </div>
-            <h3 className="font-playfair text-xl md:text-2xl lg:text-3xl font-bold text-foreground mb-4">
-              Curso Completo - Todas as 9 Bolsas
-            </h3>
-            <p className="font-montserrat text-sm md:text-base text-muted-foreground mb-6 max-w-xl mx-auto px-2">
-              Aprenda a fazer todas as bolsas do curso com acesso vitalício e suporte exclusivo
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6">
-              <span className="font-montserrat text-xl md:text-2xl text-muted-foreground line-through">
-                R$ 810
-              </span>
-              <span className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-                R$ 497
-              </span>
-            </div>
-            <p className="font-montserrat text-xs md:text-sm text-muted-foreground mb-6">
-              Economia de R$ 313 comprando o curso completo!
-            </p>
-            <Button 
-              size="lg" 
-              className="font-montserrat text-base md:text-lg px-6 md:px-10 py-5 md:py-6 rounded-full shadow-hover hover:scale-105 transition-transform w-full sm:w-auto"
-              onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/iBXyKqe', 497)}
-            >
-              Quero o Curso Completo
-            </Button>
-          </div>
-        </div>
       </div>
+
     </section>
   );
 };
