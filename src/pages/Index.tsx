@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Plans from "@/components/Plans";
 import BagGallery from "@/components/BagGallery";
 import Instructor from "@/components/Instructor";
 import Benefits from "@/components/Benefits";
@@ -10,6 +11,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background font-montserrat">
       <Hero />
+      <Plans />
       <BagGallery />
       <Instructor />
       <Benefits />
