@@ -44,7 +44,7 @@ const Plans = () => {
                 R$ 810
               </span>
               <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
-                R$ 399
+                R$ 299
               </span>
             </div>
             <ul className="font-montserrat text-sm md:text-base text-muted-foreground space-y-3 mb-8">
@@ -64,9 +64,9 @@ const Plans = () => {
             <Button
               size="lg"
               className="font-montserrat text-base md:text-lg px-6 md:px-10 py-5 md:py-6 rounded-full shadow-hover hover:scale-105 transition-transform mt-auto w-full sm:w-auto"
-              onClick={() => handleClick('https://pay.kiwify.com.br/SEU-LINK-DO-COMBO', 'Purchase', 399)}
+              onClick={() => handleClick('https://pay.kiwify.com.br/iBXyKqe', 'Purchase', 299)}
             >
-              QUERO O CURSO POR R$399
+              QUERO O CURSO POR R$299
             </Button>
           </div>
 
