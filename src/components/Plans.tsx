@@ -120,7 +120,7 @@ const Plans = () => {
               size="lg"
               variant="outline"
               className="font-montserrat text-base md:text-lg px-6 md:px-10 py-5 md:py-6 rounded-full hover:bg-primary hover:text-primary-foreground transition-all mt-auto w-full sm:w-auto"
-              onClick={() => handleClick('https://pay.kiwify.com.br/3GQtvXU', 'Subscribe', 32.99)}
+              onClick={() => handleClick('https://pay.kiwify.com.br/E0H28QM', 'Subscribe', 32.99)}
             >
               ASSINAR O CLUBE 🧶
             </Button>
