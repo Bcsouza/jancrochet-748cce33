@@ -27,7 +27,7 @@ const BagGallery = () => {
     <section className="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-background to-secondary/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10 md:mb-16 animate-fade-up">
-          <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
+          <h2 className="font-playfair text-3xl md:text-5xl lg:text-5xl font-bold text-primary mb-4 leading-tight">
             Prefere começar por uma bolsa só?
           </h2>
           <p className="font-montserrat text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
