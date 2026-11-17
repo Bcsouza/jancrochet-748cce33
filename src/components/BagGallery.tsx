@@ -57,9 +57,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/HoH8dXN', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/HoH8dXN', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -84,9 +84,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/r1ELM3S', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/r1ELM3S', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -111,9 +111,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/VoYrghq', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/VoYrghq', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -138,9 +138,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/Jn9lzdz', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/Jn9lzdz', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -165,9 +165,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -192,9 +192,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/4D9x4SZ', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/4D9x4SZ', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -219,9 +219,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/NRmkgUg', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/NRmkgUg', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -246,9 +246,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/kDMQZZU', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/kDMQZZU', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
@@ -273,9 +273,9 @@ const BagGallery = () => {
               <Button 
                 variant="outline" 
                 className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
-                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/8AjEyhY', 90)}
+                onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/8AjEyhY', 60)}
               >
-                Comprar por R$ 90
+                Comprar por R$ 60
               </Button>
             </div>
           </div>
