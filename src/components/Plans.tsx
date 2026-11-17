@@ -19,19 +19,20 @@ const Plans = () => {
     <section id="planos" className="py-12 md:py-20 px-4 md:px-6 bg-background">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10 md:mb-14 animate-fade-up">
+          <p className="text-primary text-sm font-semibold uppercase mb-3">Black Friday JanCrochet</p>
           <h2 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
-            Comece a criar (e a vender) hoje
+            Apaixonou por mais de uma? Aprenda todas.
           </h2>
           <p className="font-montserrat text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
-            Escolha o plano perfeito pra você e transforme fios em renda.
+            Garanta o curso completo ou escolha a inspiração diária no Telegram. Duas ofertas independentes, para momentos diferentes da sua jornada.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {/* Card 1 - Curso Completo */}
-          <div className="animate-fade-up bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 border border-primary/20 shadow-soft flex flex-col h-full">
+          <div className="bf-featured animate-fade-up bg-campaign text-campaign-foreground rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 border border-primary/20 shadow-soft flex flex-col h-full">
             <div className="inline-block self-start bg-primary/20 text-primary px-3 md:px-4 py-1 rounded-full text-xs md:text-sm font-montserrat font-semibold mb-4">
-              ⭐ MAIS ESCOLHIDO
+              BLACK FRIDAY · CURSO COMPLETO
             </div>
             <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground mb-3">
               Curso Completo — Todas as 9 Bolsas
@@ -47,6 +48,7 @@ const Plans = () => {
                 R$ 299
               </span>
             </div>
+            <p className="text-sm font-semibold text-primary mb-6">Economize R$ 241 em relação às 9 aulas avulsas</p>
             <ul className="font-montserrat text-sm md:text-base text-muted-foreground space-y-3 mb-8">
               <li className="flex gap-3">
                 <Check className="h-5 w-5 shrink-0 text-primary" />
@@ -63,17 +65,17 @@ const Plans = () => {
             </ul>
             <Button
               size="lg"
-              className="font-montserrat text-base md:text-lg px-6 md:px-10 py-5 md:py-6 rounded-full shadow-hover hover:scale-105 transition-transform mt-auto w-full sm:w-auto"
+              className="font-montserrat text-sm md:text-base px-4 md:px-6 min-h-12 h-auto py-4 whitespace-normal rounded-full shadow-hover transition-transform mt-auto w-full sm:w-auto"
               onClick={() => handleClick('https://pay.kiwify.com.br/iBXyKqe', 'Purchase', 299)}
             >
-              QUERO O CURSO POR R$299
+              GARANTIR AS 9 BOLSAS · R$ 299
             </Button>
           </div>
 
           {/* Card 2 - Crochê News */}
           <div className="animate-fade-up animation-delay-200 bg-gradient-to-r from-primary/10 via-secondary to-primary/10 rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 border border-primary/20 shadow-soft flex flex-col h-full">
             <div className="inline-block self-start bg-primary/20 text-primary px-3 md:px-4 py-1 rounded-full text-xs md:text-sm font-montserrat font-semibold mb-4">
-              ✨ NOVIDADE
+              INSPIRAÇÃO NO TELEGRAM
             </div>
             <h3 className="font-playfair text-2xl md:text-3xl font-bold text-foreground mb-3">
               Crochê News
@@ -118,7 +120,7 @@ const Plans = () => {
             <Button
               size="lg"
               variant="outline"
-              className="font-montserrat text-base md:text-lg px-6 md:px-10 py-5 md:py-6 rounded-full hover:bg-primary hover:text-primary-foreground transition-all mt-auto w-full sm:w-auto"
+              className="font-montserrat text-sm md:text-base px-4 md:px-6 min-h-12 h-auto py-4 whitespace-normal rounded-full hover:bg-primary hover:text-primary-foreground transition-all mt-auto w-full sm:w-auto"
               onClick={() => handleClick('https://pay.kiwify.com.br/3GQtvXU', 'Subscribe', 32.99)}
             >
               ASSINAR O CLUBE 🧶

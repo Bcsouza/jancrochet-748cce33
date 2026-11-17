@@ -24,14 +24,15 @@ const BagGallery = () => {
   };
 
   return (
-    <section className="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-background to-secondary/30">
+    <section id="bolsas-avulsas" className="py-12 md:py-20 px-4 md:px-6 bg-gradient-to-b from-background to-secondary/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-10 md:mb-16 animate-fade-up">
+          <p className="text-primary text-sm font-semibold uppercase mb-3">Black Friday · Bolsas avulsas</p>
           <h2 className="font-playfair text-3xl md:text-5xl lg:text-5xl font-bold text-primary mb-4 leading-tight">
-            Prefere começar por uma bolsa só?
+            Sua próxima bolsa começa aqui
           </h2>
           <p className="font-montserrat text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
-            Cada bolsa tem sua vídeo aula completa por apenas R$60. Escolha a sua e comece a criar hoje mesmo.
+            Escolha o modelo que mais combina com você. Cada vídeo aula completa por R$ 60 para transformar fios em uma peça que dá orgulho de usar e vender.
           </p>
         </div>
 

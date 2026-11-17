@@ -1,15 +1,8 @@
-import { Button } from "@/components/ui/button";
 import { Instagram } from "lucide-react";
 import heroImage from "@/assets/hero-background.jpg";
 
 const Hero = () => {
-  const scrollToCTA = () => {
-    const ctaSection = document.getElementById('cta-section');
-    ctaSection?.scrollIntoView({
-      behavior: 'smooth'
-    });
-  };
-  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-[70svh] flex items-center justify-center overflow-hidden">
       {/* Header */}
       <header className="absolute top-0 left-0 right-0 z-20 py-4 px-6">
         <div className="max-w-6xl mx-auto flex justify-end">
@@ -32,7 +25,10 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 py-16 md:py-20 text-center animate-fade-up">
+      <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 pt-28 pb-20 md:py-28 text-center animate-fade-up">
+        <p className="inline-flex bg-campaign text-campaign-foreground rounded-full px-5 py-2 mb-6 text-sm font-semibold">
+          Black Friday · Feita para criar
+        </p>
         <div className="mb-6 md:mb-8">
           
           <h1 className="font-playfair text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-4 md:mb-6 leading-tight">
@@ -42,7 +38,7 @@ const Hero = () => {
         </div>
 
         <p className="font-montserrat text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 md:mb-12 leading-relaxed animate-fade-in animation-delay-200 px-2">
-          Aprenda a criar bolsas de crochê únicas e exclusivas com o curso JanCrochet.
+          A Black Friday chegou ao seu próximo projeto de crochê. Escolha uma bolsa por R$ 60 ou aprenda os 9 modelos por R$ 299.
           <span className="block mt-2 font-medium text-foreground">
             Transforme fios em arte e conquiste sua renda com elegância.
           </span>

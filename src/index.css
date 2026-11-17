@@ -106,3 +106,29 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer base {
+  :root {
+    --campaign: 330 8% 13%;
+    --campaign-foreground: 30 25% 97%;
+    --campaign-accent: 345 55% 80%;
+  }
+  .black-friday-theme {
+    --primary: 345 38% 42%;
+    --ring: 345 38% 42%;
+  }
+  .bf-featured {
+    --foreground: var(--campaign-foreground);
+    --muted-foreground: 30 12% 78%;
+    --primary: var(--campaign-accent);
+    --primary-foreground: var(--campaign);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .black-friday-theme *, .black-friday-theme *::before, .black-friday-theme *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
