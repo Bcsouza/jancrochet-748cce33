@@ -118,6 +118,8 @@ All colors MUST be HSL.
     --ring: 345 38% 42%;
   }
   .bf-featured {
+    position: relative;
+    overflow: hidden;
     --foreground: var(--campaign-foreground);
     --muted-foreground: 30 12% 78%;
     --primary: var(--campaign-accent);
@@ -125,7 +127,42 @@ All colors MUST be HSL.
   }
 }
 
+.bf-ribbon-track {
+  animation: bf-ribbon-scroll 42s linear infinite;
+}
+
+.bf-ribbon:hover .bf-ribbon-track,
+.bf-ribbon:focus-within .bf-ribbon-track,
+.bf-ribbon[data-paused="true"] .bf-ribbon-track {
+  animation-play-state: paused;
+}
+
+.bf-featured::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(110deg, transparent 35%, hsl(var(--campaign-accent) / 0.12) 50%, transparent 65%);
+  transform: translateX(-120%);
+  animation: bf-offer-shine 8s ease-in-out infinite;
+}
+
+@keyframes bf-ribbon-scroll {
+  to { transform: translateX(-50%); }
+}
+
+@keyframes bf-offer-shine {
+  0%, 65% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+
 @media (prefers-reduced-motion: reduce) {
+  .bf-motion-control { display: none; }
+  .bf-ribbon-track { width: auto; }
+  .bf-ribbon-track > div { display: none; }
+  .bf-ribbon .sr-only { position: static; width: auto; height: auto; margin: 0; padding: 12px 16px; overflow: visible; clip: auto; white-space: normal; text-align: center; font-size: 14px; }
+  .bf-ribbon > div[aria-hidden="true"] { display: none; }
+  .bf-featured::after { display: none; }
   .black-friday-theme *, .black-friday-theme *::before, .black-friday-theme *::after {
     animation: none !important;
     transition: none !important;

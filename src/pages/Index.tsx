@@ -6,13 +6,12 @@ import Benefits from "@/components/Benefits";
 import Testimonials from "@/components/Testimonials";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import BlackFridayRibbon from "@/components/BlackFridayRibbon";
 
 const Index = () => {
   return (
     <div className="black-friday-theme min-h-screen bg-background font-montserrat">
-      <div className="bg-campaign text-campaign-foreground px-4 py-3 text-center text-sm font-semibold">
-        BLACK FRIDAY JanCrochet <span className="text-campaign-accent">·</span> Bolsas avulsas R$ 60 <span className="text-campaign-accent">·</span> Curso completo R$ 299
-      </div>
+      <BlackFridayRibbon />
       <Hero />
       <BagGallery />
       <Plans />
