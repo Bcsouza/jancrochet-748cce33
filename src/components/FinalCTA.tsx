@@ -18,7 +18,7 @@ const FinalCTA = () => {
     <section id="cta-section" className="py-12 md:py-20 px-4 md:px-6 bg-gradient-elegant relative overflow-hidden">
       <div className="relative z-10 max-w-3xl mx-auto text-center px-2">
         <div className="animate-fade-up">
-          <p className="text-sm font-semibold uppercase text-primary mb-4">Black Friday · JanCrochet</p>
+          <p className="text-sm font-semibold uppercase text-primary mb-4">Black Friday · Somente até 30/11</p>
           <h2 className="font-playfair text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 md:mb-6 leading-tight">
             Seu próximo passo: criar as 9 bolsas exclusivas
           </h2>

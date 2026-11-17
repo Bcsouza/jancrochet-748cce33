@@ -7,7 +7,7 @@ const BlackFridayRibbon = () => {
 
   return (
     <div className="bf-ribbon relative flex items-center bg-campaign text-campaign-foreground" data-paused={paused}>
-      <p className="sr-only">Black Friday JanCrochet. Bolsas avulsas por R$ 60 e curso completo por R$ 299.</p>
+      <p className="sr-only">Black Friday JanCrochet. Promoção somente até 30/11. Bolsas avulsas por R$ 60 e curso completo por R$ 299.</p>
       <div className="min-w-0 flex-1 overflow-hidden py-4" aria-hidden="true">
         <div className="bf-ribbon-track flex w-max">
           {[0, 1].map((copy) => (
@@ -15,6 +15,7 @@ const BlackFridayRibbon = () => {
               {[0, 1, 2].map((item) => (
                 <div key={item} className="flex shrink-0 items-center gap-6 px-3 text-sm font-semibold">
                   <span className="text-campaign-accent">BLACK FRIDAY</span>
+                  <span>Somente até 30/11</span>
                   <Sparkles className="h-4 w-4 text-campaign-accent" />
                   <span>JanCrochet</span>
                   <span className="text-campaign-accent">✦</span>

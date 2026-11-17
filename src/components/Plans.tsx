@@ -49,6 +49,7 @@ const Plans = () => {
               </span>
             </div>
             <p className="text-sm font-semibold text-primary mb-6">Economize R$ 241 em relação às 9 aulas avulsas</p>
+            <p className="text-sm font-semibold text-primary mb-6">Promoção válida somente até 30/11.</p>
             <ul className="font-montserrat text-sm md:text-base text-muted-foreground space-y-3 mb-8">
               <li className="flex gap-3">
                 <Check className="h-5 w-5 shrink-0 text-primary" />

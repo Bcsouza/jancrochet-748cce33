@@ -27,7 +27,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 pt-28 pb-20 md:py-28 text-center animate-fade-up">
         <p className="inline-flex bg-campaign text-campaign-foreground rounded-full px-5 py-2 mb-6 text-sm font-semibold">
-          Black Friday · Feita para criar
+          Black Friday · Somente até 30/11
         </p>
         <div className="mb-6 md:mb-8">
           
