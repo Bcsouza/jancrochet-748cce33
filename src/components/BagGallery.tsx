@@ -31,7 +31,7 @@ const BagGallery = () => {
             Prefere começar por uma bolsa só?
           </h2>
           <p className="font-montserrat text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
-            Cada bolsa tem sua vídeo aula completa por apenas R$90. Escolha a sua e comece a criar hoje mesmo.
+            Cada bolsa tem sua vídeo aula completa por apenas R$60. Escolha a sua e comece a criar hoje mesmo.
           </p>
         </div>
 

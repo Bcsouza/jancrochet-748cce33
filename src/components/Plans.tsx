@@ -41,7 +41,7 @@ const Plans = () => {
             </p>
             <div className="flex flex-wrap items-center gap-2 sm:gap-4 mb-6">
               <span className="font-montserrat text-xl md:text-2xl text-muted-foreground line-through">
-                R$ 810
+                R$ 540
               </span>
               <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
                 R$ 299
