@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import { courseOffer, courseSavings } from "@/lib/course-offer";
 
 declare global {
   interface Window {
@@ -42,13 +43,13 @@ const Plans = () => {
             </p>
             <div className="flex flex-wrap items-center gap-2 sm:gap-4 mb-6">
               <span className="font-montserrat text-xl md:text-2xl text-muted-foreground line-through">
-                R$ 540
+                De R$ {courseOffer.originalPrice}
               </span>
               <span className="font-playfair text-4xl md:text-5xl font-bold text-primary">
-                R$ 299
+                por R$ {courseOffer.price}
               </span>
             </div>
-            <p className="text-sm font-semibold text-primary mb-6">Economize R$ 241 em relação às 9 aulas avulsas</p>
+            <p className="text-sm font-semibold text-primary mb-6">Economize R$ {courseSavings} em relação ao preço original do curso</p>
             <p className="text-sm font-semibold text-primary mb-6">Promoção válida somente até 30/11.</p>
             <ul className="font-montserrat text-sm md:text-base text-muted-foreground space-y-3 mb-8">
               <li className="flex gap-3">
@@ -67,7 +68,7 @@ const Plans = () => {
             <Button
               size="lg"
               className="font-montserrat text-sm md:text-base px-4 md:px-6 min-h-12 h-auto py-4 whitespace-normal rounded-full shadow-hover transition-transform mt-auto w-full sm:w-auto"
-              onClick={() => handleClick('https://pay.kiwify.com.br/iBXyKqe', 'Purchase', 299)}
+              onClick={() => handleClick('https://pay.kiwify.com.br/iBXyKqe', 'Purchase', courseOffer.price)}
             >
               GARANTIR AS 9 BOLSAS · R$ 299
             </Button>
