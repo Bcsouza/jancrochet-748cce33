@@ -56,11 +56,11 @@ const BagGallery = () => {
                 Elegância artesanal em tons neutros
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/HoH8dXN', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -83,11 +83,11 @@ const BagGallery = () => {
                 Estilo clássico e atemporal
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/r1ELM3S', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -110,11 +110,11 @@ const BagGallery = () => {
                 Cores vibrantes e alegria
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/VoYrghq', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -137,11 +137,11 @@ const BagGallery = () => {
                 Delicadeza e sofisticação
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/Jn9lzdz', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -164,11 +164,11 @@ const BagGallery = () => {
                 Textura única e diferenciada
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/7GFtmZf', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -191,11 +191,11 @@ const BagGallery = () => {
                 Elegância em tons de azul
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/4D9x4SZ', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -218,11 +218,11 @@ const BagGallery = () => {
                 Sofisticação artesanal
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/NRmkgUg', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -245,11 +245,11 @@ const BagGallery = () => {
                 Charme em tons turquesa
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/kDMQZZU', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
@@ -272,11 +272,11 @@ const BagGallery = () => {
                 Elegância clássica
               </p>
               <Button 
-                variant="outline" 
-                className="font-montserrat text-sm md:text-base rounded-full px-4 md:px-6 hover:bg-primary hover:text-primary-foreground transition-all w-full sm:w-auto"
+                size="lg"
+                className="bf-buy font-montserrat font-semibold text-base md:text-lg rounded-full px-6 md:px-8 min-h-12 h-auto py-3 shadow-soft hover:scale-105 transition-transform w-full sm:w-auto"
                 onClick={() => handlePurchaseClick('https://pay.kiwify.com.br/8AjEyhY', 60)}
               >
-                Comprar por R$ 60
+                Comprar agora · R$ 60
               </Button>
             </div>
           </div>
